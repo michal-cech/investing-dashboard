@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "investing-dashboard-backend"
+version = "0.1.0"
+description = ""
+authors = ["Michal Čech <michal.cechy@seznam.cz>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+startlette = "^0.16.0"
+strawberry-graphql = "^0.70.1"
+uvicorn = {version = "^0.14.0", extras = ["standard"]}
+uvloop = "^0.15.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
